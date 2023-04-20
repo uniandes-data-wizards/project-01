@@ -2,9 +2,9 @@
 
 Run the API with:
 
-`python
+```python
 python -m uvicorn main:app --reload
-`
+```
 
 Send an example request with:
 
