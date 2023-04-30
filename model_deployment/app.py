@@ -66,7 +66,7 @@ def update_output_div(n_clicks, textarea_value):
         return 'Por favor ingrese una reseña.'
     else:
         data = {'review_es': textarea_value}
-        response = requests.post('http://10.128.0.7:8000/predict', json=data)
+        response = requests.post('http://10.128.0.11:8000/predict', json=data)
         if response.status_code == 200:
             result = response.json()
             return f'El sentimiento de la película es {result}.'

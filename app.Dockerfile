@@ -7,7 +7,7 @@ RUN pip3 install -r requirements.txt
 
 COPY . .
 
-EXPOSE 80
+EXPOSE 8050
 
 CMD cd model_deployment && python app.py
 
