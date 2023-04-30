@@ -10,7 +10,7 @@ Send an example request with:
 
 http://127.0.0.1:8000/docs#/
 
-Run the dashboard with
+First modify request URLs on `app.py` to `<127.0.0.1:8000>`, then run dashboard with:
 
 ```python
 python app.py
